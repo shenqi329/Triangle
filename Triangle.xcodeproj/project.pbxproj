@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC83D57F19D8534E001294F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83D57E19D8534E001294F1 /* main.m */; };
-		CC83D58219D8534E001294F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83D58119D8534E001294F1 /* AppDelegate.m */; };
 		CC83D58419D8534E001294F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC83D58319D8534E001294F1 /* Images.xcassets */; };
 		CC83D58719D8534E001294F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC83D58519D8534E001294F1 /* MainMenu.xib */; };
 		CC83D59319D8534E001294F1 /* TriangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC83D59219D8534E001294F1 /* TriangleTests.m */; };
@@ -31,9 +29,6 @@
 /* Begin PBXFileReference section */
 		CC83D57919D8534E001294F1 /* Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC83D57D19D8534E001294F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC83D57E19D8534E001294F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC83D58019D8534E001294F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CC83D58119D8534E001294F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CC83D58319D8534E001294F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC83D58619D8534E001294F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CC83D58C19D8534E001294F1 /* TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				CC83D5A219D85521001294F1 /* Triangle.cpp */,
-				CC83D58019D8534E001294F1 /* AppDelegate.h */,
-				CC83D58119D8534E001294F1 /* AppDelegate.m */,
 				CC83D58319D8534E001294F1 /* Images.xcassets */,
 				CC83D58519D8534E001294F1 /* MainMenu.xib */,
 				CC83D57C19D8534E001294F1 /* Supporting Files */,
@@ -104,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				CC83D57D19D8534E001294F1 /* Info.plist */,
-				CC83D57E19D8534E001294F1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,9 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC83D58219D8534E001294F1 /* AppDelegate.m in Sources */,
 				CC83D5A319D85521001294F1 /* Triangle.cpp in Sources */,
-				CC83D57F19D8534E001294F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
