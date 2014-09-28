@@ -335,7 +335,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Applications/Xcode6-Beta6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
-					"~/Work/Triangle/SB5/Src/GLTools/include",
+					./SB5/Src/GLTools/include,
 				);
 				INFOPLIST_FILE = Triangle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -355,7 +355,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Applications/Xcode6-Beta6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
-					"~/Work/Triangle/SB5/Src/GLTools/include",
+					./SB5/Src/GLTools/include,
 				);
 				INFOPLIST_FILE = Triangle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
